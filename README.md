@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+# Creative Nomads — AI Marketing Landing Page (Prototype)
 
-## Project info
+A front-end landing-page concept for **Creative Nomads**, exploring how to present AI-powered marketing and automation services. Built with Lovable and maintained as a React/TypeScript project.
 
-**URL**: https://lovable.dev/projects/96c68229-537a-44cc-9558-c25b532c86da
+> **Status: UI prototype, not a production customer-acquisition website.** This repository is unrelated to the separate [Boost With AI](https://boostwithai.se/) editorial/automation project, despite its historical repository name.
 
-## How can I edit this code?
+## What's in the prototype
 
-There are several ways of editing your application.
+- Single-page layout with navigation, hero, service overview, about section, testimonials layout, contact form, and footer
+- Responsive styling using Tailwind CSS and shadcn/ui components
+- React Router entry page and 404 route
 
-**Use Lovable**
+## Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/96c68229-537a-44cc-9558-c25b532c86da) and start prompting.
+React 18 · TypeScript · Vite · Tailwind CSS · shadcn/ui · React Router · TanStack Query
 
-Changes made via Lovable will be committed automatically to this repo.
+## Run locally
 
-**Use your preferred IDE**
+Requires a current Node.js/npm installation.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/adamamrullah/ai-powered-boost.git
+cd ai-powered-boost
+npm ci
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Other commands: `npm run build`, `npm run preview`, `npm run lint`.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Important implementation limitations
 
-**Use GitHub Codespaces**
+**Please do not treat the demo content as verified business evidence or implemented production functionality.**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- The contact form currently **simulates** successful submission. It does not send, persist, or notify anyone of inquiries.
+- Testimonials and headshots are demonstration content; they are **not authenticated client endorsements**.
+- Promotional figures appearing in the UI (such as ROI gains, campaign counts, number of clients, or lead volumes) are **unverified placeholders**.
+- Some buttons are presentational and have no connected booking or contact action.
+- Service descriptions show proposed offerings, not a verified inventory of launched AI services.
 
-## What technologies are used for this project?
+Before any public commercial launch, remove or replace placeholder claims/testimonials, wire and test real call-to-actions, implement privacy-compliant contact handling and spam protections, and validate accessibility/performance.
 
-This project is built with:
+## Why this is in my portfolio
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This project demonstrates the front-end product exploration and iteration side of my work: positioning, service information architecture, responsive marketing UI and prototyping with AI-assisted development tools. It **does not** demonstrate a production AI agent or deployed marketing automation.
 
-## How can I deploy this project?
+## Related work
 
-Simply open [Lovable](https://lovable.dev/projects/96c68229-537a-44cc-9558-c25b532c86da) and click on Share -> Publish.
+- [Lovable PRD Generator](https://github.com/adamamrullah/lovable-prd-generator) — an open-format agent skill for scoped, testable PRDs.
+- [Boost With AI](https://boostwithai.se/) — a separate AI/marketing content project.
 
-## Can I connect a custom domain to my Lovable project?
+## Attribution
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Created with assistance from [Lovable](https://lovable.dev/), with project-level product direction and review by Adam Amrullah. The repository contains prototype code; treat any sample marketing content as illustrative.
